@@ -12,9 +12,24 @@ namespace attempt_number_X
 {
     public partial class Form1 : Form
     {
+        public Button but = new Button();
         public Form1()
         {
             InitializeComponent();
+
+
+            but.Text = "My Button ";
+            but.Size = new Size(100, 50);
+            but.Location = new Point(90, 10);
+            ///////////////////////////////////////Click
+            but.Click += new EventHandler(but_Click);
+            this.Controls.Add(but);
+
+        }
+        ////////////////////////Обработка Click
+        private void but_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ciao!", "Welcome!");
         }
     }
 }
