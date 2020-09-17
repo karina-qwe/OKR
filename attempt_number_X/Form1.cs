@@ -27,8 +27,8 @@ namespace attempt_number_X
             this.Controls.Add(but);
 
             Label label1 = new Label();
-            label1.Location = new Point(20, 20);
-            label1.Text = "LABEL";
+            label1.Location = new Point(120, 20);
+            label1.Text = "LABEL 1";
             Controls.Add(label1);
 
         }
