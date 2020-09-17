@@ -31,6 +31,9 @@ namespace attempt_number_X
             label1.Text = "LABEL 1";
             Controls.Add(label1);
 
+
+            MessageBox.Show("Hi!", "Welcome!");
+
         }
         ////////////////////////Обработка Click
         private void but_Click(object sender, EventArgs e)
