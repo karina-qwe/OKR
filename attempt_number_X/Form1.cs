@@ -17,11 +17,12 @@ namespace attempt_number_X
         public Form1()
         {
             InitializeComponent();
-            this.BackColor = Color.Fuchsia;
+            this.BackColor = Color.Black;
             
 
 
             but1.Text = "My Button ";
+            but1.ForeColor = Color.Fuchsia;
             but1.Size = new Size(100, 50);
             but1.Location = new Point(90, 10);
             ///////////////////////////////////////Click
