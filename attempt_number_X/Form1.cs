@@ -30,8 +30,8 @@ namespace attempt_number_X
             this.Controls.Add(but1);
 
             Label label1 = new Label();
-            label1.Location = new Point(20, 20);
-            label1.Text = "LABEL";
+            label1.Location = new Point(120, 20);
+            label1.Text = "LABEL 1";
             Controls.Add(label1);
 
         }
@@ -65,7 +65,7 @@ namespace attempt_number_X
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("OKR 2");
+            MessageBox.Show("OKR 3");
         }
     }
 }
