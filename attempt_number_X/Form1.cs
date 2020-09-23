@@ -62,5 +62,10 @@ namespace attempt_number_X
             gr.DrawLine(penLemonChiffon, 300, 150, 315, 150);//A
             gr.DrawLine(penLemonChiffon, 305, 110, 320, 180);//A
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("OKR 2");
+        }
     }
 }
